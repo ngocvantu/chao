@@ -14,6 +14,7 @@ func main(){
 
 	_, err = db.Exec("select  * from cc")
 	if err != nil {
+		fmt.Println("xay ra loi")
 		fmt.Println(err.Error())
 	}
 }

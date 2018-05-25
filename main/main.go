@@ -12,7 +12,7 @@ func main(){
 		fmt.Println(err.Error())
 	}
 
-	_, err = db.Exec("select  * from cc")
+	_, err = db.Exec("select  * from chao")
 	if err != nil {
 		fmt.Println("xay ra loi")
 		fmt.Println(err.Error())
